@@ -1,0 +1,14 @@
+{
+  "name": "alpha-vantage-api-tests",
+  "version": "1.0.0",
+  "description": "Finance API test suite — stock quotes, time series, currency exchange via Alpha Vantage",
+  "scripts": {
+    "test": "playwright test",
+    "test:smoke": "playwright test --grep @smoke",
+    "report": "playwright show-report reports/html"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.43.0",
+    "typescript": "^5.4.0"
+  }
+}
